@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',serif;
+}
+
+body{
+    background-color: hsl(236, 21%, 39%);
+    /* overflow:hidden; */
+    transition: 0.5s ease;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    z-index: 3;
+    position: relative;
+    visibility: visible;
+    
+    
+}
+.container-login{
+    padding: 20px;
+    background-color:#84869b;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+    min-width: 70vh;
+}
+.container-login .header{
+    background-color: aliceblue;
+    width:500px ;
+    border-radius: 10px;
+    padding:1vh ;
+}
+.container-login h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #51537a;
+}
+.container-login .pemberitahuan {
+    width : 500px;
+    min-width: 50%;
+    text-align: center;
+    color: black;
+    letter-spacing: 1px;
+    margin: 0px 10px 0 10px;
+    padding: 10px;
+    display: flex; 
+}
+.container-login .pemberitahuan p {
+    font-size: 3vh ;
+    color: #445470;
+}
+
+.container-login .input-box {
+    background-color: #445470;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 5px;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    /* height 100 % itu berguna memperluas si input di dalam input_box */
+    background: transparent;
+    /* background transparant agar si input tidak berwarna putih melainkan mengikuti warna si input-box */
+    outline: none;
+    border: none;
+    /* outline dan border untuk memperbaiki bagian luar border kotak input */
+    padding-left: 1em;
+    color:#ced1d6 ;
+    font-size: 1.4em;
+
+}
+.container-login .btn{
+    width: 80%;
+     height: 6vh;
+     border: none;
+     outline: none;
+     cursor: pointer;
+     transform: translatex(50px);
+     font-size: 3vh;
+     color: #445470;
+     margin-top: 1.3vh;
+     border-radius: 10px;
+
+    
+}
+
+.conten{
+    background-color: #cdcfd1;
+    padding: 10px;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    padding: 5vh;
+    z-index: 1;
+    position: relative;
+    bottom: 670px;
+    height: auto;
+    filter: blur(10px);
+    transition: 0.5s ease-in;
+}   
+
+.conten .header-conten {
+    height: auto;
+    background-color: #bac6e0;
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid gray;
+    box-shadow: 0px 5px 5px black;
+}
+
+.conten .main-conten {
+    display: flex;
+}
+.conten .hero .pg1{
+box-sizing: border-box;
+width: 250px;
+height: auto;
+border: 2px solid #283333;
+}
+
+.conten .main-conten .biodata {
+    margin-top: 20px;
+    margin-left: 35px;
+    font-size: 1.3rem;
+}
+.biodata li{
+    margin-top: 9px;
+    font-family: Impact, Haettenschweiler,  sans-serif;
+}
+
+.main-conten .kata1{
+    width: 60vh;
+    text-align: left;
+    font-size: 1.25rem;
+    margin-right: 28px;
+    margin-top: 20px;
+    height: auto;
+    background-color:#283333;
+    padding: 15px;
+    color: rgb(218, 212, 212);
+    border-radius: 2vh;
+    box-sizing: border-box ;
+}
+
+.conten .music audio{
+    width: 24.5%;
+    margin-bottom: 3vh;
+}
+.hal2 span{
+    color: red;
+}
+.hal2 {
+    font-size: 1.25em;
+    display: flex;
+    margin-top: 1.3vh;
+}
+.hal2 p {
+    width: 70%;
+    text-align: justify;
+}
+.hal2 .pg2{
+    width: 33vh;
+    height: 33vh;
+    margin: auto;
+    background-image: url('../Last Projek/img/pg3.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 5vh;
+    transform: translateY(-2vh);
+    transition: box-shadow 0.5s ease;
+    box-shadow:  0 0 2px 2px rgb(10, 31, 90);
+}
+.hal2:hover .pg2{
+    box-shadow:  0 0 20px 7px rgb(10, 31, 90);
+}
+.h1hal2 {
+    text-shadow: 0 0.5vh 0 rgb(134, 133, 133);
+}
+.h1hal3 {
+    text-align: right;
+    margin-top: 2vh;
+    transform: translateX(-5vh);
+}
+.h1hal3 span{
+    text-decoration: underline;
+    text-decoration-color: red ;
+}
+.hal3 {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: 1.5vh;
+    background-image: url('../Last Projek/img/pg4.jpg');
+    background-repeat: repeat;
+    /* border: 0.4vh solid rgb(117, 111, 111); */
+    font-size: 1.25em;
+    padding: 2vh;
+}
+.hal3 span{
+    color: rgb(241, 34, 6);
+}
+.hal3 .pg3 {
+    width: 50vh;
+    height: 33vh;
+    margin: auto;
+    margin-right: 5vh;
+    background-image: url('../Last Projek/img/pghal3.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 5vh;
+    box-shadow: 0 0 3px 3px rgb(85, 85, 85);
+    transition: all 0.5s ease;
+}
+.hal3:hover .pg3{
+        box-shadow: 0 0 20px 5px rgb(85, 85, 85);
+    }
+
+.hal3 p {
+    width: 70%;
+    text-align: justify;
+    color: #1d2424;
+}
+
+
+.hal4{
+    font-size: 1.25em;
+    margin-top: 7vh;
+    text-align: center;
+    background-color:#b6bbc5;;
+    border-bottom-left-radius: 10vh;
+    padding-top: 0.5vh;
+    display: inline-block;
+    padding : 2vh;
+    box-shadow:  0 0 1vh 0.2vh rgb(10, 31, 90);
+    color: rgb(18, 18, 19);
+    
+}
+.hal4:hover .gambarhal4{
+    filter: invert(0)
+}
+.hal4 p{
+    text-align: justify;
+    /* color: #17204b; */
+}
+.hal4 span{
+    color: red;
+}
+.h1hal4{
+    font-size: 5.3vh;
+    
+}
+
+.gambarhal4{
+    width: 37vh ;
+    height: 37vh;
+    background-image: url('../Last Projek/img/pg5.jpg');
+    background-size: cover;
+    background-position: center;
+    float: right;
+    margin-left: 2vh;
+    border-radius: 2vh;
+    filter: invert(0.9);
+    transition: 0.5s ease-in;
+    
+}
+
+main{
+    display: grid;
+    place-items: center;
+    transition: 2s;
+    margin-bottom: 1vh;
+}
+main .batu{
+    width: 35%;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    transform-origin: left ;
+    border-radius: 0 1rem 1rem 0;
+    transition: 2s;
+}
+main:hover .batu{
+    transform:rotateY(180deg);
+}
+main:hover{
+    translate: 120px 0;
+}
+main div{
+    position: absolute;
+    z-index: -1;
+    width: 35%;
+    aspect-ratio: 3/4;
+    background: #e7e6e6f1;
+    border-radius: 0 1rem 1rem 0;
+    text-align: center;
+    
+}
+main .kertas{
+    height: 35vh;
+    width: auto;
+    margin-top: 1.5vh;
+    border: solid 0.4vh rgba(0, 0, 0, 0.87);
+    
+    object-fit: cover;
+    transform-origin: left ;
+}
+.hal5{
+    font-size: 1.25em;
+    text-align: justify;
+    padding: 5vh;
+    /* border : solid 0.4vh rgb(109, 106, 106); */
+    margin-top: 5vh;
+    width: 80%;
+    background-color: #b9c1ca;
+    margin: auto;
+    margin-top: 7vh;
+    box-shadow: 0 0 10px 3px rgb(85, 85, 85);
+    margin-bottom: 5vh;
+}
+.hal5 h2{
+    margin-bottom: 2vh;
+    text-align: center;
+}
+.hal5 span{
+    color: red;
+}
+
+.hal6{
+    display: block;
+    background-color: #33355c;
+    height: auto;
+    text-align: center;
+    padding: 2vh;
+    margin-top: 2vh;
+    border-bottom-left-radius: 4vh;
+    
+}
+.hal6:hover>:not(:hover){
+    filter: grayscale(1) blur(2px);
+}
+.hal6 img{
+    aspect-ratio: 3/4;
+    width: 25vh;
+    height: 30vh;
+    object-fit: cover;
+    margin: 1.4vh;
+    align-content: center;
+    border-radius: 3.5vh;
+    transition: 1.5s ease;
+    /* border: solid 0.3vh rgba(0, 0, 0, 0.445); */
+}
+.hal6 img:hover{
+    scale: 1.2;
+    margin: 3vh;
+    border-radius: 0;
+    box-shadow: 0 0 10px 8px rgba(2, 11, 26, 0.781) ;
+}
+.h1hal6{
+    margin-left: 5vh;
+    color:#33355c;
+}
+
+.tekshal6{
+    font-size: 1.25em;
+    text-align: justify;
+}
+.tekshal6 span{
+    color: red;
+}
+.hal7{
+    background-color: #a1a6b1;
+    margin-top: 5vh;
+    font-size: 1.25em;
+    padding: 2vh;
+    text-align: justify;
+}
+.hal7 p span{
+    color: red;
+}
+.hal7 h1{
+    font-size: 2em;
+    text-align: right;
+    margin-right: 1.8vh;
+}
+.hal7 h1 span{
+    text-decoration: line-through;
+}
+.kejutan{
+    width: 100%;;
+    height: 30vh;
+    margin-top: 10vh;
+    text-align: center;
+    /* border: 0.2vh solid rgba(0, 0, 0, 0.5); */
+    color:#1d2424;
+    transition: 5s ease;
+}
+.kejutan .masalalu{
+    transition: 6s ease;
+    color: #cdcfd1;
+    margin-top: 2vh;
+    font-size: 1.7em;
+    text-decoration: underline;
+}
+.kejutan:hover .masalalu{
+    color: red;
+}
+
+.hal8{
+    /* display: flex; */
+    font-size: 1.25em;
+    text-align: justify;
+    padding: 1.3vh;
+    background-color: #b5b6c5;
+    /* border: solid 0.3vh rgb(68, 67, 67); */;
+    filter: grayscale(5);
+    transition: 2s ease;
+
+}
+.h1hal8{
+    margin-left: 1vh;
+}
+.hal8 img{
+    width: 40vh;
+    height: 40vh;
+    margin: 2vh;
+    border-radius: 1vh;
+    /* filter: grayscale(1); */
+    transition: 1s ease;
+    float: right;
+}
+.hal8:hover {
+    filter: grayscale(0);
+}
+.hal8:hover img{
+    box-shadow:0 0 3vh 0.2vh rgb(57, 59, 63) ;
+}
+.hal8 span{
+    color: red;
+}
+
+.hal9{
+    margin-top: 10vh;
+    padding: 5vh;
+    text-align: center;
+    background-color: #b6bbc5;
+    filter:saturate(0.5);
+}
+.hal9 span{
+    color: red;
+}
+.h1hal9{
+    text-decoration: underline;
+}
+.hal9 img{
+    width: 60%; 
+    height: 50vh;
+    margin-top: 2vh;
+}
+.hal9 p{
+    font-size: 1.25em;
+    text-align: justify;
+    margin-top: 2vh;
+}
